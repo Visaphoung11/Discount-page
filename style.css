@@ -1,87 +1,89 @@
-/* .container {
- margin-left: 30px;
-} */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
+  font-family: Open, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
 }
 
 .container {
-    width: 80%;
-    margin: auto;
-    text-align: left;
+  width: 80%;
+  margin-left: 30px;
+  text-align: left;
 }
 
 .title {
-    color: #1a1aff;
-    font-size: 24px;
-    font-weight: bold;
+  color: #0c0c0c;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: 40px;
 }
 
 .subtitle {
-    color: #555;
-    font-size: 14px;
-    margin-bottom: 20px;
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-left: 23px;
+  font-size: 28px;
 }
 
 .product {
-    display: flex;
-    align-items: center;
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .product-image {
-    width: 300px;
-    height: auto;
-    border-radius: 8px;
+  width: 800px;
+  height: 500px;
+  border-radius: 8px;
 }
 
 .product-details {
-    margin-left: 20px;
+  margin-left: 100px;
+  margin-top: -150px;
 }
 
 .product-title {
-    color: #1a1aff;
-    font-size: 20px;
-    font-weight: bold;
+  color: #0a0a0a;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .product-description {
-    color: #555;
-    font-size: 14px;
+  color: #555;
+  font-size: 28px;
 }
 
 .rating {
-    color: red;
-    font-size: 18px;
+  color: red;
+  font-size: 28px;
 }
 
 .price {
-    font-size: 18px;
-    margin: 10px 0;
+  font-size: 28px;
+  margin: 10px 0;
 }
 
 .old-price {
-    text-decoration: line-through;
-    color: #888;
+  text-decoration: line-through;
+  color: #888;
 }
 
 .new-price {
-    font-weight: bold;
-    color: black;
+  font-weight: bold;
+  color: black;
 }
 
 .purchase-btn {
-    background-color: #1a1aff;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 14px;
+  background-color: #002366;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 30px;
 }
